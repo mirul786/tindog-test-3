@@ -1,0 +1,207 @@
+body{
+    align-items: center;
+    text-align: center;
+}
+
+/* <-- Title Section --> */
+
+#title {
+    background-color: #ff4c68;
+    position: relative;
+    
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar {
+    margin-bottom: 6%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: aliceblue;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    opacity: 90%;
+}
+
+#btn-google-play{
+    margin: 10% 5%;
+}
+
+#btn-apple {
+    margin:10% 5%;
+}
+
+#iphone-mockup {
+    width: 60%;
+    margin: 0 10% 0 auto;
+    position: relative;
+    transform: rotate(30deg)
+    
+}
+
+.navbar {
+    margin-left: 2%;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+/*Feature*/
+
+#features {
+    background-color: #fff;
+    position: relative;
+    margin-top: -15%;
+    z-index: 1;
+}
+
+.feature {
+    width: 90%;
+    margin: auto 8% auto auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.feature-breif {
+    width: 45%;
+    font-family: sans-serif;
+    margin: auto;
+    opacity: 60%;
+    font-size: small;
+    font-weight: 500;
+    
+}
+
+.icon {
+    color: rgb(252, 124, 124);
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color:#ff4c68;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+    margin: auto;
+    line-height: 1.5;
+    font-size: 3rem;
+    padding-top: 3%;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 200px;
+    border-radius: 100%;
+    
+    padding: 3% 3%;
+}
+#press {
+    background-color: #ff4c68;
+    
+}
+.owner-name {
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.press-img {
+    width: 15rem;
+    margin: 7% 0 7%;
+    
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* --Pricing-- */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3%;
+}
+
+.btn-1 {
+    margin-top: 12%; 
+}
+
+.btn-2 {
+    margin-top: 12%;
+
+}
+
+/* 
+ Z-Index --> 
+
+Z-index is an advance CSS concept. In general words it means or is designed to stacking the layout over each other.
+By default the Z-index value of each layout or <div> or <section> is 0.
+when you change the value from 0 to 1 or -1 or 2,3... or -2,-3... it stacks (overlap the layout or div or section over one another).
+It works only when the position property is set to "absolute" or "relative".
+for example try below code to understand the concept clearly -->
+
+HTML COde --->
+
+<div class="red">
+  Red
+</div>
+
+<div class="blue">
+  Blue
+</div>
+
+<div class="yellow">
+  Yellow
+</div>
+
+CSS Code --->
+
+div {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.red {
+  background-color: red;
+  z-index: 3;
+  
+}
+
+.blue {
+  background-color: blue;
+  margin-top: 20px;
+  margin-left: 20px;
+  z-index: 2;
+}
+
+.yellow {
+  background-color: yellow;
+  margin-top: 40px;
+  margin-left: 40px;
+  z-index: 1;
+}
+
+*/
+
